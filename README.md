@@ -1,4 +1,4 @@
-# DA4022: Proposal-Aligned Final Evaluation
+  # DA4022: Proposal-Aligned Final Evaluation
 
 This directory contains the organized codebase, notebooks, and modular experiment scripts for **DA4022: Test-Time Single-Frame Adaptation for Depth and Geometry Estimation (VGGT Backbone)**.
 

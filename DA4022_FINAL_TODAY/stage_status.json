@@ -1,5 +1,7 @@
 {
   "donors": "complete",
   "validation": "complete",
-  "attribute_ablation": "complete"
+  "attribute_ablation": "complete",
+  "main": "complete",
+  "robustness": "complete"
 }

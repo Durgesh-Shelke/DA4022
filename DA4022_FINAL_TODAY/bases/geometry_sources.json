@@ -1,0 +1,10 @@
+{
+  "label": "geometry",
+  "source_runs": [
+    "runs/synthetic_donor_synth_geometry_310_-1_donor_0e9966fe3bfda5d5",
+    "runs/synthetic_donor_synth_geometry_311_-1_donor_3f8932ceb0e7212e"
+  ],
+  "extraction": "Rank-d weighted shared update mean with p=1 IRLS; orthonormal left/right singular bases",
+  "iterations": 5,
+  "basis_dim": 4
+}

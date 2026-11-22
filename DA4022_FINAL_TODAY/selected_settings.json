@@ -1,0 +1,15 @@
+{
+  "config_hash": "dbb1f8166ab65463",
+  "selected": {
+    "lora4": 0.001,
+    "lora1": 0.001,
+    "learned": 0.1,
+    "random": 0.1,
+    "hybrid": 0.01,
+    "shared_real": 0.1,
+    "learned_energy": 0.1
+  },
+  "selection": "mean final unobserved AbsRel on validation frames only; all target evaluation settings frozen afterward",
+  "validation_steps": 30,
+  "test_steps": 100
+}

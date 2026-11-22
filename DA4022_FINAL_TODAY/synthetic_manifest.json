@@ -1,0 +1,269 @@
+{
+  "tasks": [
+    {
+      "id": "geometry_310",
+      "attribute": "geometry",
+      "frames": [
+        {
+          "id": "synth_geometry_310_-1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": -1,
+          "file": "data/synth_geometry_310_-1.npz",
+          "sha256": "c588824d0d3d597be2714afb983707ef7ed3c27416e8d24b55e513c77219efa3"
+        },
+        {
+          "id": "synth_geometry_310_+0",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": 0,
+          "file": "data/synth_geometry_310_+0.npz",
+          "sha256": "344921c0df8eabea2d994e2325c163d454fac4855d2adb694fbd06c368a939d4"
+        },
+        {
+          "id": "synth_geometry_310_+1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": 1,
+          "file": "data/synth_geometry_310_+1.npz",
+          "sha256": "3a17dcfee15fed592878f6e9c83f50b43012169a218af4afa9c412cad19c4dad"
+        }
+      ]
+    },
+    {
+      "id": "geometry_311",
+      "attribute": "geometry",
+      "frames": [
+        {
+          "id": "synth_geometry_311_-1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": -1,
+          "file": "data/synth_geometry_311_-1.npz",
+          "sha256": "1b79fe6fd99cc9d66ba75b3f8260f8f7eb1a9a58132c926db75e576e06a1fd15"
+        },
+        {
+          "id": "synth_geometry_311_+0",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": 0,
+          "file": "data/synth_geometry_311_+0.npz",
+          "sha256": "a071ab93d76424c6800426d9e86cd2f4b0fd508f26c9b894a8c7f7283e871378"
+        },
+        {
+          "id": "synth_geometry_311_+1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "geometry",
+          "level": 1,
+          "file": "data/synth_geometry_311_+1.npz",
+          "sha256": "abb0e489f6f21049e13574026a77d519db4785fd17bc51aa9daf21e0c22f1700"
+        }
+      ]
+    },
+    {
+      "id": "camera_310",
+      "attribute": "camera",
+      "frames": [
+        {
+          "id": "synth_camera_310_-1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": -1,
+          "file": "data/synth_camera_310_-1.npz",
+          "sha256": "c8688ce6359f2b30218edcd39f04036f0d581d5ff6d8136aeaa5c3d99fd95bd9"
+        },
+        {
+          "id": "synth_camera_310_+0",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": 0,
+          "file": "data/synth_camera_310_+0.npz",
+          "sha256": "344921c0df8eabea2d994e2325c163d454fac4855d2adb694fbd06c368a939d4"
+        },
+        {
+          "id": "synth_camera_310_+1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": 1,
+          "file": "data/synth_camera_310_+1.npz",
+          "sha256": "bf0a80affd690dec08b31a206f657c46b8a528e83bd37b1a5fd5750db570c674"
+        }
+      ]
+    },
+    {
+      "id": "camera_311",
+      "attribute": "camera",
+      "frames": [
+        {
+          "id": "synth_camera_311_-1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": -1,
+          "file": "data/synth_camera_311_-1.npz",
+          "sha256": "9a76cf8d824aec3342c89adb93c1bbce32a18fcb2cc8767a35633725443e19a4"
+        },
+        {
+          "id": "synth_camera_311_+0",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": 0,
+          "file": "data/synth_camera_311_+0.npz",
+          "sha256": "a071ab93d76424c6800426d9e86cd2f4b0fd508f26c9b894a8c7f7283e871378"
+        },
+        {
+          "id": "synth_camera_311_+1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "camera",
+          "level": 1,
+          "file": "data/synth_camera_311_+1.npz",
+          "sha256": "c526c167df09e4d3fedc0cc210484273452ff154a1df9b3f110fa5efee822ec3"
+        }
+      ]
+    },
+    {
+      "id": "texture_310",
+      "attribute": "texture",
+      "frames": [
+        {
+          "id": "synth_texture_310_-1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": -1,
+          "file": "data/synth_texture_310_-1.npz",
+          "sha256": "bbf029ad950bc56dc31d43dc8673dea42ae591aa9704f7a40942e74cf52bdb28"
+        },
+        {
+          "id": "synth_texture_310_+0",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": 0,
+          "file": "data/synth_texture_310_+0.npz",
+          "sha256": "344921c0df8eabea2d994e2325c163d454fac4855d2adb694fbd06c368a939d4"
+        },
+        {
+          "id": "synth_texture_310_+1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": 1,
+          "file": "data/synth_texture_310_+1.npz",
+          "sha256": "333957be9b3ce895e5a445b01c6aad6481a17dd511055ea518ef8f94e827abdd"
+        }
+      ]
+    },
+    {
+      "id": "texture_311",
+      "attribute": "texture",
+      "frames": [
+        {
+          "id": "synth_texture_311_-1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": -1,
+          "file": "data/synth_texture_311_-1.npz",
+          "sha256": "a1bf2f97a5f91991d251dba637feb70f1e62216e63aea87ec171ff9520b00ada"
+        },
+        {
+          "id": "synth_texture_311_+0",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": 0,
+          "file": "data/synth_texture_311_+0.npz",
+          "sha256": "a071ab93d76424c6800426d9e86cd2f4b0fd508f26c9b894a8c7f7283e871378"
+        },
+        {
+          "id": "synth_texture_311_+1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "texture",
+          "level": 1,
+          "file": "data/synth_texture_311_+1.npz",
+          "sha256": "ed353e08a1f3cd1d429411439ec811be043fdedf0348ddc99db314add8709bab"
+        }
+      ]
+    },
+    {
+      "id": "lighting_310",
+      "attribute": "lighting",
+      "frames": [
+        {
+          "id": "synth_lighting_310_-1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": -1,
+          "file": "data/synth_lighting_310_-1.npz",
+          "sha256": "54a471ad5fd1e350a343404c203f91c91351fafa609178d4b553ac0c84a60bd6"
+        },
+        {
+          "id": "synth_lighting_310_+0",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": 0,
+          "file": "data/synth_lighting_310_+0.npz",
+          "sha256": "344921c0df8eabea2d994e2325c163d454fac4855d2adb694fbd06c368a939d4"
+        },
+        {
+          "id": "synth_lighting_310_+1",
+          "scene": "synthetic_base_310",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": 1,
+          "file": "data/synth_lighting_310_+1.npz",
+          "sha256": "407cfb5da197003dfd3a770b178e5bdfa5708ae40719e14ea82fa84b990e8b0d"
+        }
+      ]
+    },
+    {
+      "id": "lighting_311",
+      "attribute": "lighting",
+      "frames": [
+        {
+          "id": "synth_lighting_311_-1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": -1,
+          "file": "data/synth_lighting_311_-1.npz",
+          "sha256": "364f542b24aa55c6780196d8b491b97b6ac511aec7a9b7440dba8da7685a5767"
+        },
+        {
+          "id": "synth_lighting_311_+0",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": 0,
+          "file": "data/synth_lighting_311_+0.npz",
+          "sha256": "a071ab93d76424c6800426d9e86cd2f4b0fd508f26c9b894a8c7f7283e871378"
+        },
+        {
+          "id": "synth_lighting_311_+1",
+          "scene": "synthetic_base_311",
+          "role": "synthetic_donor",
+          "attribute": "lighting",
+          "level": 1,
+          "file": "data/synth_lighting_311_+1.npz",
+          "sha256": "0f530e6a2a1cda386b6b049e159dc698012d5ad39d5ae404aa1d9c013a43fae6"
+        }
+      ]
+    }
+  ],
+  "description": "Analytic room/box/sphere ray casting; Lambertian shading; controlled target intervention; nuisance scene seed fixed within each task."
+}

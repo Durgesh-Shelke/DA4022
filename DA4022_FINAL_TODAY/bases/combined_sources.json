@@ -1,0 +1,16 @@
+{
+  "label": "combined",
+  "source_runs": [
+    "runs/synthetic_donor_synth_geometry_310_-1_donor_0e9966fe3bfda5d5",
+    "runs/synthetic_donor_synth_geometry_311_-1_donor_3f8932ceb0e7212e",
+    "runs/synthetic_donor_synth_camera_310_-1_donor_1b354cccdddaed4f",
+    "runs/synthetic_donor_synth_camera_311_-1_donor_ad4177895ef9fd85",
+    "runs/synthetic_donor_synth_texture_310_-1_donor_55ea264cb358b3c6",
+    "runs/synthetic_donor_synth_texture_311_-1_donor_88e8772aa2434359",
+    "runs/synthetic_donor_synth_lighting_310_-1_donor_2dbc3b3e3872c0f3",
+    "runs/synthetic_donor_synth_lighting_311_-1_donor_44aa78770d9c2e85"
+  ],
+  "extraction": "Rank-d weighted shared update mean with p=1 IRLS; orthonormal left/right singular bases",
+  "iterations": 5,
+  "basis_dim": 4
+}

@@ -1,0 +1,10 @@
+{
+  "label": "lighting",
+  "source_runs": [
+    "runs/synthetic_donor_synth_lighting_310_-1_donor_2dbc3b3e3872c0f3",
+    "runs/synthetic_donor_synth_lighting_311_-1_donor_44aa78770d9c2e85"
+  ],
+  "extraction": "Rank-d weighted shared update mean with p=1 IRLS; orthonormal left/right singular bases",
+  "iterations": 5,
+  "basis_dim": 4
+}

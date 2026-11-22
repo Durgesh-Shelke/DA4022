@@ -1,0 +1,27 @@
+
+['git', 'clone', 'https://github.com/nv-dvl/capa.git', '/kaggle/working/capa']
+Cloning into '/kaggle/working/capa'...
+
+['/opt/isaaclab-venv/bin/python3', '-m', 'pip', 'install', '-q', 'huggingface_hub', 'einops', 'safetensors', 'pillow', 'pandas', 'matplotlib', 'requests']
+
+['git', '-C', '/kaggle/working/capa', 'checkout', '080739287e18509c3b046ac7e8b3e0593c2d4e7d']
+Note: switching to '080739287e18509c3b046ac7e8b3e0593c2d4e7d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 0807392 cache vggt preprocessing in capa optimization #2
+
+['/opt/isaaclab-venv/bin/python3', '-m', 'pip', 'install', '-q', 'huggingface_hub', 'einops', 'safetensors', 'pillow', 'pandas', 'matplotlib', 'requests']

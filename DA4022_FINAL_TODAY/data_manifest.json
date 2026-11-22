@@ -1,0 +1,143 @@
+{
+  "config_hash": "dbb1f8166ab65463",
+  "protocol": "single-frame adaptation; regenerated synthetic sparse depth",
+  "frames": [
+    {
+      "id": "scene0707_frame0000",
+      "scene": "scene0707",
+      "role": "donor",
+      "frame_index": 0,
+      "file": "data/scene0707_frame0000.npz",
+      "sha256": "a3d15eeacd4ef7f9c7573d3bcf729a3c2337a275dd5c100b386aabb08b653417"
+    },
+    {
+      "id": "scene0707_frame0099",
+      "scene": "scene0707",
+      "role": "donor",
+      "frame_index": 99,
+      "file": "data/scene0707_frame0099.npz",
+      "sha256": "9575190f8cafc7f065137006cadfb033a95d4e006e15af3480e24364cbf6ad60"
+    },
+    {
+      "id": "scene0766_frame0000",
+      "scene": "scene0766",
+      "role": "donor",
+      "frame_index": 0,
+      "file": "data/scene0766_frame0000.npz",
+      "sha256": "df786ba576f7e84b1ee929aa9581453c04b1872b859ba13f5c2932fe61cc69bb"
+    },
+    {
+      "id": "scene0766_frame0099",
+      "scene": "scene0766",
+      "role": "donor",
+      "frame_index": 99,
+      "file": "data/scene0766_frame0099.npz",
+      "sha256": "fd0dbd2e864c05610a608140fe14c295428a4e25d92a1b9c468d5defbd329b06"
+    },
+    {
+      "id": "scene0771_frame0000",
+      "scene": "scene0771",
+      "role": "validation",
+      "frame_index": 0,
+      "file": "data/scene0771_frame0000.npz",
+      "sha256": "dbeccdcab065014ec9e16018c5e47d6c7c4f378362e65e1868f5ad88cae04737"
+    },
+    {
+      "id": "scene0771_frame0099",
+      "scene": "scene0771",
+      "role": "validation",
+      "frame_index": 99,
+      "file": "data/scene0771_frame0099.npz",
+      "sha256": "c32a61ad524c4f7243e2e8fe7025fd660ec8759304e7490e5c2e1b058fd7f590"
+    },
+    {
+      "id": "scene0777_frame0000",
+      "scene": "scene0777",
+      "role": "test",
+      "frame_index": 0,
+      "file": "data/scene0777_frame0000.npz",
+      "sha256": "e7d8c7d823e61abb9a9b27e27129684af00f1904cd65aab085e1993b0de493c4"
+    },
+    {
+      "id": "scene0777_frame0099",
+      "scene": "scene0777",
+      "role": "test",
+      "frame_index": 99,
+      "file": "data/scene0777_frame0099.npz",
+      "sha256": "c8c435e96bd1c308dfae75d7c621e6b795f4a776f3d332ed0b4c662897d433ee"
+    },
+    {
+      "id": "scene0806_frame0000",
+      "scene": "scene0806",
+      "role": "test",
+      "frame_index": 0,
+      "file": "data/scene0806_frame0000.npz",
+      "sha256": "bdea1be01e4ccda80c95f0c627af8f5210b22f15765d044749356ad281309917"
+    },
+    {
+      "id": "scene0806_frame0099",
+      "scene": "scene0806",
+      "role": "test",
+      "frame_index": 99,
+      "file": "data/scene0806_frame0099.npz",
+      "sha256": "491110868e2f7a6f420b56993e5058b0e7744cfb8f9cf5b240f0346977f6620b"
+    }
+  ],
+  "sources": [
+    {
+      "scene": "scene0707",
+      "role": "donor",
+      "url": "https://share.phys.ethz.ch/~pf/bingkedata/capa/sample_data/scannet_sift_noise_10pct/scene0707.pt",
+      "sha256": "6a1efbced6f62235ff2b4d2ae66f6f99b0b6b00983b307c23304728a2c9f44bf",
+      "total_frames": 100,
+      "selected_frames": [
+        0,
+        99
+      ]
+    },
+    {
+      "scene": "scene0766",
+      "role": "donor",
+      "url": "https://share.phys.ethz.ch/~pf/bingkedata/capa/sample_data/scannet_sift_noise_10pct/scene0766.pt",
+      "sha256": "3e28e76de87b873cf7749c70da50a3cbef0164bbf0072e811ce96828d07d2b5d",
+      "total_frames": 100,
+      "selected_frames": [
+        0,
+        99
+      ]
+    },
+    {
+      "scene": "scene0771",
+      "role": "validation",
+      "url": "https://share.phys.ethz.ch/~pf/bingkedata/capa/sample_data/scannet_sift_noise_10pct/scene0771.pt",
+      "sha256": "9f61ccd844951c71910bcefda3949db409841ba478048a9bedc5347629718854",
+      "total_frames": 100,
+      "selected_frames": [
+        0,
+        99
+      ]
+    },
+    {
+      "scene": "scene0777",
+      "role": "test",
+      "url": "https://share.phys.ethz.ch/~pf/bingkedata/capa/sample_data/scannet_sift_noise_10pct/scene0777.pt",
+      "sha256": "52e9cbfc6c26819106637b4948e937e57ce25ee2e64d6b538e0eb9de78de5046",
+      "total_frames": 100,
+      "selected_frames": [
+        0,
+        99
+      ]
+    },
+    {
+      "scene": "scene0806",
+      "role": "test",
+      "url": "https://share.phys.ethz.ch/~pf/bingkedata/capa/sample_data/scannet_sift_noise_10pct/scene0806.pt",
+      "sha256": "c632f4ece80ec0bb3544094c5dd07aa96adeb5f1ecde540d8b021346621ce966",
+      "total_frames": 100,
+      "selected_frames": [
+        0,
+        99
+      ]
+    }
+  ]
+}

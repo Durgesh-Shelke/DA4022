@@ -1,0 +1,10 @@
+{
+  "label": "shared_real",
+  "source_runs": [
+    "runs/real_donor_scene0707_frame0000_donor_b5f09cd9d71fe7e2",
+    "runs/real_donor_scene0766_frame0000_donor_7a3cbc54771a3ab1"
+  ],
+  "extraction": "Rank-d weighted shared update mean with p=1 IRLS; orthonormal left/right singular bases",
+  "iterations": 5,
+  "basis_dim": 4
+}

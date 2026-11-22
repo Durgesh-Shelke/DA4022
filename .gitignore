@@ -1,0 +1,26 @@
+# Data cache and heavy downloads (>100MB files blocked by GitHub)
+da4022_downloads/
+*.pt
+*.part
+*.npz
+*.zip
+
+# Cloned third-party repository
+capa/
+
+# Large training checkpoints and intermediate frames
+DA4022_FINAL_TODAY/runs/
+DA4022_FINAL_TODAY/data/
+DA4022_FINAL_TODAY/synthetic/
+DA4022_FINAL_TODAY/controlled/
+
+# Python & Environment
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Keep reports, summaries, config, and figures
+!DA4022_FINAL_TODAY/report/**
+!DA4022_FINAL_TODAY/*.json
+!DA4022_FINAL_TODAY/*.png
+!DA4022_FINAL_TODAY/*.jsonl

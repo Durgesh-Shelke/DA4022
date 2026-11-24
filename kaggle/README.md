@@ -1,6 +1,6 @@
 # Kaggle execution
 
-This folder is separate from the existing local-GPU notebook and runner at the repository root. The final narrative report remains at [../DA4022_Final_Project_Report.md](../DA4022_Final_Project_Report.md).
+This folder is separate from the existing local-GPU notebook and runner at the repository root. The final narrative report is in [../reports/DA4022_Final_Project_Report.md](../reports/DA4022_Final_Project_Report.md), and recorded experiment artifacts are in `../data/DA4022_FINAL_TODAY/`.
 
 ## Import the notebook
 
@@ -9,7 +9,7 @@ This folder is separate from the existing local-GPU notebook and runner at the r
 3. Leave `RESTORE_ZIP` empty for a fresh experiment.
 4. Run cells through GPU preflight, check `GPU PREFLIGHT PASSED`, then continue the remaining stages.
 
-The notebook embeds its sources and needs no repository attachment. Old outputs are cleared for distribution; recorded measured results remain in `../DA4022_FINAL_TODAY/`.
+The notebook embeds its sources and needs no repository attachment. Old outputs are cleared for distribution; recorded measured results remain in `../data/DA4022_FINAL_TODAY/`.
 
 ## Script alternative
 

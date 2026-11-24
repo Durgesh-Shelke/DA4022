@@ -39,9 +39,10 @@ def main() -> None:
                 embedded.append(filename)
     assert embedded == [filename for _, filename in STAGES], "Notebook/source order differs"
     assert len(STAGES) == 13
-    assert (folder.parent / "DA4022_Final_Project_Report.md").is_file()
+    assert (folder.parent / "reports" / "DA4022_Final_Project_Report.md").is_file()
+    assert (folder.parent / "data" / "DA4022_FINAL_TODAY" / "config.json").is_file()
     print("PASS: 13 stages compile and match embedded notebook sources in order.")
-    print("PASS: notebook cells compile, outputs are cleared, root report exists.")
+    print("PASS: notebook cells compile, outputs are cleared, reports/ and data/ exist.")
     print("GPU training was not run by this validation command.")
 
 

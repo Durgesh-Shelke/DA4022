@@ -2,7 +2,7 @@
 
 Attribute-guided test-time adaptation for depth completion with a frozen VGGT backbone. The project combines sparse-depth supervision with reusable subspaces and evaluates ordinary LoRA, fixed bases, and a residual-LoRA hybrid.
 
-**[Read the final project report](DA4022_Final_Project_Report.md)** for the findings and conclusions. The report is at the repository root, outside both execution workflows.
+**[Read the final project report](reports/DA4022_Final_Project_Report.md)** for the findings and conclusions. Narrative reports live in `reports/`; recorded experiment data and provenance live in `data/`, separate from both execution workflows.
 
 ## Main result
 
@@ -14,8 +14,9 @@ This is a small, two-test-scene study: the result demonstrates an accuracy–par
 
 ```text
 DA4022/
-|-- DA4022_Final_Project_Report.md  # Final findings and conclusions
 |-- README.md
+|-- reports/
+|   `-- DA4022_Final_Project_Report.md  # Final findings and conclusions
 |-- DA4022_LOCAL.ipynb             # Existing local-GPU notebook
 |-- run_notebook.py                # Existing notebook execution helper
 |-- requirements.txt               # Local environment dependencies
@@ -27,14 +28,16 @@ DA4022/
 |   |-- requirements.txt          # Extra packages; keeps Kaggle's PyTorch
 |   |-- validate.py               # Syntax and notebook/source checks
 |   `-- README.md                 # Kaggle instructions
-`-- DA4022_FINAL_TODAY/            # Recorded results and provenance
-    |-- report/                   # Tables, figures, generated summaries
-    |-- environment.json
-    |-- config.json
-    `-- selected_settings.json
+`-- data/
+    |-- README.md
+    `-- DA4022_FINAL_TODAY/        # Preserved experiment artifact bundle
+        |-- report/               # Tables, figures, generated summaries
+        |-- environment.json
+        |-- config.json
+        `-- selected_settings.json
 ```
 
-The local-GPU entry points retain their existing paths. The Kaggle notebook has moved from the root into `kaggle/`. `DA4022_FINAL_TODAY/code/` is the recorded source snapshot, not another execution entry point.
+The local-GPU entry points retain their existing paths. The Kaggle notebook has moved from the root into `kaggle/`. `data/DA4022_FINAL_TODAY/code/` is the recorded source snapshot, not another execution entry point. Moving the archived artifact bundle does not change the output paths used by fresh local or Kaggle runs.
 
 ## Local NVIDIA GPU
 
@@ -90,13 +93,13 @@ Main testing uses 100 updates, two frames per test scene, and two adaptation see
 
 ## Results and provenance
 
-- [Final project report](DA4022_Final_Project_Report.md)
-- [Main-study coverage](DA4022_FINAL_TODAY/report/main_coverage.json)
-- [Main results](DA4022_FINAL_TODAY/report/main_summary.csv)
-- [Per-scene/per-seed results](DA4022_FINAL_TODAY/report/main_scene_seed.csv)
-- [Robustness results](DA4022_FINAL_TODAY/report/robustness_summary.csv)
-- [Recorded environment](DA4022_FINAL_TODAY/environment.json)
-- [Frozen validation choices](DA4022_FINAL_TODAY/selected_settings.json)
+- [Final project report](reports/DA4022_Final_Project_Report.md)
+- [Main-study coverage](data/DA4022_FINAL_TODAY/report/main_coverage.json)
+- [Main results](data/DA4022_FINAL_TODAY/report/main_summary.csv)
+- [Per-scene/per-seed results](data/DA4022_FINAL_TODAY/report/main_scene_seed.csv)
+- [Robustness results](data/DA4022_FINAL_TODAY/report/robustness_summary.csv)
+- [Recorded environment](data/DA4022_FINAL_TODAY/environment.json)
+- [Frozen validation choices](data/DA4022_FINAL_TODAY/selected_settings.json)
 
 Large downloads, prepared frames, tensor checkpoints, and learned tensor files are excluded by `.gitignore`. Committed summaries, figures, configurations, and source snapshots document the completed evaluation. Fresh execution writes a separate working copy.
 

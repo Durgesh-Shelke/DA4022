@@ -13,6 +13,11 @@ DA4022_FINAL_TODAY/runs/
 DA4022_FINAL_TODAY/data/
 DA4022_FINAL_TODAY/synthetic/
 DA4022_FINAL_TODAY/controlled/
+data/DA4022_FINAL_TODAY/runs/
+data/DA4022_FINAL_TODAY/data/
+data/DA4022_FINAL_TODAY/synthetic/
+data/DA4022_FINAL_TODAY/controlled/
+workspace/
 
 # Python & Environment
 __pycache__/
@@ -24,3 +29,7 @@ __pycache__/
 !DA4022_FINAL_TODAY/*.json
 !DA4022_FINAL_TODAY/*.png
 !DA4022_FINAL_TODAY/*.jsonl
+!data/DA4022_FINAL_TODAY/report/**
+!data/DA4022_FINAL_TODAY/*.json
+!data/DA4022_FINAL_TODAY/*.png
+!data/DA4022_FINAL_TODAY/*.jsonl

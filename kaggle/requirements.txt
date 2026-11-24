@@ -1,0 +1,9 @@
+# Additional packages only: keep Kaggle's CUDA-enabled torch and torchvision.
+huggingface_hub
+einops
+safetensors
+pillow
+numpy
+pandas
+matplotlib
+requests
